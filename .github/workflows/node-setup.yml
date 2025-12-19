@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: check whether app running on 3000
+      - name: check whether app running on 5000
         run: |
           npm i
           npm start &
