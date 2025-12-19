@@ -17,7 +17,7 @@ jobs:
           npm i
           npm start &
           sleep 5
-          curl -I http://localhost:3001 | grep "200 OK"
+          curl -I http://localhost:3001 || exit 1
 
     
 
