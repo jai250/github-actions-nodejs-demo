@@ -1,0 +1,24 @@
+name: node-setup
+on: workflow_dispatch
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v4
+
+      - name: node js setup
+        uses: actions/node-setup@v4
+        with:
+          node-version: '20'
+
+      - name: check whether app running on 3001
+        run: |
+          npm i
+          npm start &
+          sleep 5
+          curl -I http://localhost:3001 | grep "200 OK"
+
+    
+
+

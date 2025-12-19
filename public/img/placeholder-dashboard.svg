@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#deeefd"/>
+      <stop offset="100%" stop-color="#f0e7ff"/>
+    </linearGradient>
+    <style>
+      .txt{font-family:Arial, Helvetica, sans-serif;fill:#6b7280}
+    </style>
+  </defs>
+  <rect width="100%" height="100%" rx="12" fill="url(#g)"/>
+  <rect x="40" y="40" width="720" height="80" rx="8" fill="#fff" opacity="0.9"/>
+  <rect x="40" y="140" width="320" height="260" rx="8" fill="#fff" opacity="0.9"/>
+  <rect x="392" y="140" width="368" height="120" rx="8" fill="#fff" opacity="0.9"/>
+  <rect x="392" y="272" width="178" height="128" rx="8" fill="#fff" opacity="0.9"/>
+  <rect x="582" y="272" width="178" height="128" rx="8" fill="#fff" opacity="0.9"/>
+  <text x="60" y="92" font-size="26" font-weight="700" fill="#0d6efd">Dashboard preview</text>
+  <text x="60" y="180" class="txt" font-size="14">Metrics card</text>
+  <text x="420" y="180" class="txt" font-size="14">Overview panel</text>
+  <text x="420" y="300" class="txt" font-size="14">Widget A</text>
+  <text x="610" y="300" class="txt" font-size="14">Widget B</text>
+</svg>
